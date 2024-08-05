@@ -27,12 +27,8 @@ services:
       SPRING_DATASOURCE_USERNAME: caixauser
       SPRING_DATASOURCE_PASSWORD: caixauser
       SPRING_JPA_HIBERNATE_DDL_AUTO: validate
-      SPRING_FLYWAY_ENABLED: true
     networks:
       - backend
-
-volumes:
-  mariadb_data:
 
 networks:
   backend:
